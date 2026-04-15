@@ -17,7 +17,7 @@ public class App {
     public static void main(String[] args) {
 
         // Set ChromeDriver path (important for Jenkins)
-        System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
 
         ChromeOptions options = new ChromeOptions();
 
